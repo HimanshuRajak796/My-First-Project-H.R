@@ -1,0 +1,372 @@
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+  margin: ;
+  padding: ;
+  box-sizing: border-box;
+  font-family: Caveat;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgba(80, 120, 100, 0.5);
+  /* cursor: pointer; */
+}
+.navbar{
+    /* border: 4px solid red; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color: green;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.navbar div{
+  /* border: 4px solid yellow; */
+}
+  .logodiv{
+    width: 30%;
+  }
+.logo{
+  width: 300px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.navsection{
+  width: 70%;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+.navsection a{
+  text-decoration: none;
+  color: white;
+}
+#menuicon{
+  display: none;
+  color: blue ;
+}
+.landingpage{
+  width: 100%;
+  height: 600px;
+  border: 4px solid green;
+  background-image: url("./Media/10022.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.landingpage img{
+  width: 100%;
+  height: 390px;
+}
+.logosection{
+  border: 4px solid blue;
+  width: 100%;
+  height: 300px;
+}
+#logotext{
+  height: 20%;
+  border: 2px solid hotpink;
+  /* background-color: aqua; */
+  font-size: larger;
+}
+.logoimage{
+  height: 80%;
+  /* background-color: aquamarine; */
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logoimage img{
+  width: 280px;
+  height: 80%;
+  /* padding: 10px; */
+  align-items: center;
+  border: 2px solid brown;
+  margin-top: 20px;
+}
+.blog{
+  height: 400px;
+  border: 2px solid rgb(255, 0, 140);
+  /* background-color: lightblue; */
+}
+.blogheading{
+  height:10%;
+  font-size: 20px;
+  /* padding: 10px; */
+  text-align: center;
+}
+.blogimages{
+  height: 85%;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.blogimages div{
+  border: 2px solid red;
+  width: 30%;
+  height: 80%;
+  line-height: 12px;
+  /* background-color: orange; */
+}
+.blogimages div img{
+  width: 100%;
+  height: 50%;
+}
+.blogimages div h3{
+  font-size: 15px;
+}
+.blogimages div span{
+  font-size: 13px;
+}
+.Himanshu{
+  height: 600px;
+  border: 2px solid green;
+  font-size: larger;
+}
+.resImages{
+  height: 90%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+.resImages div{
+  height: 100%;
+  width: 30%;
+  border: 1px solid yellow;
+  overflow: hidden;
+}
+.resImages div img{
+  width: 100%;
+  height: 100%;
+}
+
+.resImages div section{
+  position: absolute;
+  width: 30%;
+  z-index: 1;
+  color: azure;
+  margin-top: 380px;
+  text-align:center ;
+  line-height: 10px;
+  
+}
+.resImages div img{
+  z-index: -1;
+}
+.resImages div img:hover{
+  scale: 1.2;
+  transition:all 1s ;
+  transform: rotate(-5deg);
+}
+.form{
+  height: 500px;
+  border: 2px solid chocolate;
+  /* font-size: larger; */
+  text-align: center;
+  background-color: burlywood;
+  color: white;
+  font-family: Caveat;
+}
+.form div{
+  width: 30%;
+  height: 260px;
+  margin-top: 30px;
+  margin-left: 525px;
+  /* border: 2px solid black; */
+}
+.email{
+  height: 40px;
+  width: 60%;
+  border-radius: 10px;
+  border: none;
+}
+.email:hover{
+  background-color: aqua;
+  transition: all 1s;
+}
+.button{
+  height: 50px;
+  width: 30%;
+  border-radius: 40%;
+  border: none;
+}
+.button:hover{
+  background-color: aqua;
+  transition: all 1s;
+}
+
+.form img{
+  margin-top: %;
+}
+.formy{
+  height: 550px;
+  border: 2px solid darkorange;
+}
+.formytext{
+  height: 20%;
+  border: 2px solid crimson;
+  text-align: center;
+}
+.formytext div{
+  /* border: 2px solid black; */
+  width: 30%;
+  height: 100%;
+  margin-left: 35%;
+}
+.formyvideo{
+  height: 80%;
+  border: 2px solid cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.formyvideo div{
+  border: 2px solid crimson;
+  width: 24%;
+  height: 100%;
+
+}
+.formyvideo div video{
+  width: 100%;
+  height: 70%;
+}
+.formyvideo div h2{
+  font-size: 25px;
+  text-align: center;
+}
+.formyvideo div p {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.parent{
+  /* border: 1px solid green; */
+  background-color: #ffae00;
+  color: white;
+}
+.FoImg{
+  /* border: 2px solid greenyellow; */
+  width: 100%;
+  height: 100%;
+  background-color: #ffae00;
+  color: white ;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.FoImg div{
+  /* border: 2px solid silver; */
+  margin-top: 10px;
+  width: 90%;
+}
+
+.FoImg img{
+  padding: 10px;
+  /* border: 2px solid silver; */
+  display: flex;
+  border-radius: 100%;
+}
+.texImg{
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  border:  2px solid black;
+  text-align: center;
+  background-image: url(./Media/10028.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.texImg div section{
+  /* border: 2px solid yellow; */
+  width: 50%;
+  height: 200px;
+  color: solid black;
+  background-color:.;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.butt{
+  border-radius: 15px;
+  background-color: #ffae00;
+  color: white;
+  width: 20%;
+  height: 40px;
+}
+.butt:hover{
+  background-color: aqua;
+  color: green;
+}
+.texImg img{
+  width: 100%;
+  height: 500PX;
+}
+.last {
+  border: solid green;
+  width: 100%;
+  height: 550px;
+  margin-top:20px ;
+  background-color: teal;
+}
+.last div img{
+  /* border: 1px solid white; */
+  margin-left: 39%;
+  margin-right: 39%;
+  margin-top: 100px;
+}
+.lastmenu{
+  /* border: 1px solid #ffae00; */
+  width: 100%;
+  height: 200px;
+  margin-top: 120px;
+}
+.lastmenu div{
+/* border:2px solid black; */
+width: 70%;
+text-align: center;
+justify-content: space-evenly;
+display: flex;
+margin-left:200px
+}
+.lastmenu a{
+  text-decoration: none;
+  color: white;
+}
+#menuico{
+  display: none;
+  color: white;
+}
+.icons{
+   /* border: 2px solid black; */
+   margin-top: 160px;
+   height: 30px;
+}
+.icons div{
+  margin-left: 140px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 10px;
+}
+.lastmenu p{
+  /* margin-top: 160px; */
+  color: white;
+  text-align: center;
+}
+@media(min-width:340px) and (max-width:640px){
+  .navbar a{
+    
+  }
+}
+
